@@ -1,0 +1,10 @@
+package com.ryan.question2;
+
+public class Sphere extends Shape3D {
+	private final double PI = 3.14;
+
+	public Sphere(double dimension) {
+		super(dimension);
+	}
+
+}

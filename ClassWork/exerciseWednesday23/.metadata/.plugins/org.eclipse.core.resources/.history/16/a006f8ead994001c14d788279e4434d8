@@ -1,0 +1,12 @@
+package com.ryan.question2;
+
+public class Shape3D {
+	
+	public double calculateArea() {
+		return 0.0;
+	}
+	
+	public double calculateVolume() {
+		return 0.0;
+	}
+}

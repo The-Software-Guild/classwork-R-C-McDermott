@@ -1,0 +1,13 @@
+package com.ryan.workerassignment;
+
+public class SalariedWorker extends Worker {
+		
+	public SalariedWorker(String name, double salaryRate) {
+		super(name, salaryRate);
+	}
+	
+	@Override
+	public double pay(int hours) {
+		return hours / 24;
+	}
+}

@@ -1,0 +1,22 @@
+package com.ryan.question2;
+
+public class Cylinder extends Shape3D {
+	private final double PI = 3.14;
+	private double height;
+	
+	public Cylinder(double dimension, double height) {
+		super(dimension);
+		this.height = height;
+	}
+	
+	@Override
+	public double calculateArea() {
+		return 2 * (this.getDimension() * this.getDimension);
+	}
+	
+	@Override
+	public double calculateVolume() {
+		return dimension * dimension * dimension;
+	}
+
+}

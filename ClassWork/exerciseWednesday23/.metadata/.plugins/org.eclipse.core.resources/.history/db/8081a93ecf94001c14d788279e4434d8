@@ -1,0 +1,5 @@
+package com.ryan.question1;
+
+public class Truck extends Vehicle {
+
+}

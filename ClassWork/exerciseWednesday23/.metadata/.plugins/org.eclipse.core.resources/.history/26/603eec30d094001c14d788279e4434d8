@@ -1,0 +1,25 @@
+package com.ryan.question1;
+
+public class Road {
+
+	public static void main(String[] args) {
+		Car car = new Car("Honda", "CVVX214");
+		Bus bus = new Bus("Double decker", "VGSF234");
+		Truck truck = new Truck("Lorry", "VCVX142");
+		
+		car.displayCarMessage();
+		car.displayInfo();
+		
+		bus.displayBusMessage();
+		bus.displayInfo();
+		
+		truck.displayTruckMessage();		
+		truck.displayInfo();
+		
+		
+		
+
+
+	}
+
+}
