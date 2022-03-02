@@ -1,0 +1,11 @@
+package com.ryan.height;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Height h = new Height(5, 26);
+		System.out.println("feet: " + h.getFeet() + " inches: " + h.getInches());
+
+	}
+
+}

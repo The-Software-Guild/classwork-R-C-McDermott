@@ -1,0 +1,21 @@
+package com.ryan.height;
+
+public class Height {
+	private int feet;
+	private int inches;
+	
+	public Height(int feet, int inches) {
+		if (inches > 11) {
+			this.inches = inches - 12;
+			this.feet = feet + 1;
+		}
+	}
+	
+	public int getFeet() {
+		return this.feet;
+	}
+	
+	public int getInches() {
+		return this.inches;
+	}
+}

@@ -1,0 +1,65 @@
+package com.ryan.employee;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Employee {
+	
+	Scanner scanner = new Scanner(System.in);
+	String nameInput;
+	int ageInput;
+	private List<String> employees = new ArrayList<String>();
+	
+
+	public void userPrompt() throws EmployeeNameException, EmployeeAgeException{
+		try {
+			System.out.println("Please enter employee name: ");
+			nameInput = scanner.nextLine();
+			if (!checkEmployee(nameInput)) {
+				throw new EmployeeNameException("Employee name already exists!");
+			}
+			employees.add(nameInput);
+			System.out.println("Employee added!");
+		}
+		catch (EmployeeNameException e1) {
+			e1.getMessage();
+		}
+		try {
+			System.out.println("Please enter employee age: ");
+			String userInput = scanner.nextLine();
+			ageInput = Integer.parseInt(userInput);
+			if (!checkAge(ageInput)) {
+				throw new EmployeeAgeException("Invalid age entered!");
+			}
+			System.out.println("Registration complete!");
+		}
+		catch (EmployeeAgeException e2) {
+			e2.getMessage();
+		}
+		
+	}
+	
+	public boolean checkEmployee(String employee) {
+		boolean check = false;
+		for (int i = 0; i < this.employees.size(); i++) {
+			if (employee == this.employees.get(i)) {
+				check = true;
+			}
+		}
+		return check;
+	}
+	
+	public boolean checkAge(int age) {
+		boolean check = false;
+		if (age < 18 || age > 60) {
+			check = true;
+		}
+		return check;
+	}
+	
+	public void addToList(String addition) {
+		this.employees.add(addition);
+	}
+
+}

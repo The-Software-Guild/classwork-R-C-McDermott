@@ -1,0 +1,15 @@
+package com.ryan.employee;
+
+import java.util.Scanner;
+
+public class Employee {
+	
+	Scanner scanner = new Scanner(System.in);
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.ryan.sample;
+
+public class Sample {
+	private int objectCount = 0;
+	
+	{
+		objectCount++;
+	}
+	
+	public void displayInstanceCount() {
+		System.out.println("Count: " + objectCount);
+	}
+
+}

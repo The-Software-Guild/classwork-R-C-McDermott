@@ -1,0 +1,10 @@
+package com.ryan.bank;
+
+public interface Account {
+	static String savingType = "Savings";
+	static String fixedType = "Fixed";
+	static String housingLoanType = "Housing Loan";
+	static String personalLoanType = "Personal Loan";
+	
+	public void createAcc();
+}

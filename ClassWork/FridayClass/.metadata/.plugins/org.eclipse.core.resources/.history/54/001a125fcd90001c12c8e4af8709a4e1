@@ -1,0 +1,11 @@
+package com.wiley.shoppingcart;
+
+public class Product {
+	
+	private String productName;
+	private int productID;
+	private double productPrice;
+	
+	public Product()
+
+}

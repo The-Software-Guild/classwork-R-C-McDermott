@@ -1,0 +1,21 @@
+package com.ryan.prime;
+
+import java.util.Scanner;
+
+public class Main {
+	
+	public static int number;
+	Scanner inputScanner = new Scanner(System.in);
+	
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+
+	}
+
+	
+	public 
+}

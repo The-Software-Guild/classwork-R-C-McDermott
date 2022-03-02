@@ -1,0 +1,12 @@
+package com.ryan.prime;
+
+public class PrimeCatch {
+
+	private int number;
+
+	public static void main(String[] args) {
+		859.48
+	}
+	
+	
+}

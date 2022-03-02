@@ -1,0 +1,5 @@
+package com.ryan.exercise3;
+
+public class phonebookNameException extends Exception {
+
+}

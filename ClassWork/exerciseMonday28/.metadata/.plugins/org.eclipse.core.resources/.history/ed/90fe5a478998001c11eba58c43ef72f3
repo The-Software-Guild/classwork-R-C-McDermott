@@ -1,0 +1,7 @@
+package com.ryan.cd;
+
+import java.util.Comparator;
+
+public class SortBySingerName implements Comparator<T> {
+
+}

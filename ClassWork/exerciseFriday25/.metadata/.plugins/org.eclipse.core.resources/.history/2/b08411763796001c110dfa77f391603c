@@ -1,0 +1,11 @@
+package com.ryan.prime;
+
+public class Main {
+
+	public static void main(String[] args) {
+		NumberInput numInt = new NumberInput();
+		numInt.setNumber(4);
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.ryan.bank;
+
+public interface LoanAcc extends Account {
+
+}

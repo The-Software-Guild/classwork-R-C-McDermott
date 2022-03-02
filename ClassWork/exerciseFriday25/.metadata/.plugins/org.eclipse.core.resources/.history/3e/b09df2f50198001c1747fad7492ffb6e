@@ -1,0 +1,16 @@
+package com.ryan.employee;
+
+public class Main {
+
+	public static void main(String[] args) throws EmployeeNameException, EmployeeAgeException {
+		Employee e =  new Employee();
+		
+		e.addToList("Steve", e.getEmployees());
+		e.addToList("Ryan", e.getEmployees());
+		e.addToList("Katie", e.getEmployees());
+		
+		e.userPrompt();
+
+	}
+
+}

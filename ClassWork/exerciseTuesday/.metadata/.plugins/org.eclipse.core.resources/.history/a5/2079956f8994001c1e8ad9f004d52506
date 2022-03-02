@@ -1,0 +1,26 @@
+package com.assigment1.matrix;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Matrix m1 = new Matrix(3, 3);
+		Matrix m2 = new Matrix(3, 3);
+		
+		m1.calculateSumOfMatrix();
+		m2.calculateSumOfMatrix();
+		
+		//int[][] m1_1 = m1.getMatrix();
+		//int[][] m2_2 = m2.getMatrix();
+		for (int i = 0; i < m1.getDimX(); i++) {
+			for (int j = 0; j < m1.getDimY(); j++) {
+				System.out.println(m1.getMatrix()[i][j]);
+			}
+		}
+		
+		
+		System.out.println("Sum of matrix 1: " + m1.getSumOfMatrix());
+		//System.out.println("Sum of matrix 1: " + m2.getSumOfMatrix());
+
+	}
+
+}

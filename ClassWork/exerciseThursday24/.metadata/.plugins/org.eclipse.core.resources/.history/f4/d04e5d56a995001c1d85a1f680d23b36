@@ -1,0 +1,5 @@
+package com.ryan.bank;
+
+public interface DepositAcc extends Account {
+
+}

@@ -1,0 +1,5 @@
+package com.ryan.exercise1;
+
+public interface Drawable {
+
+}

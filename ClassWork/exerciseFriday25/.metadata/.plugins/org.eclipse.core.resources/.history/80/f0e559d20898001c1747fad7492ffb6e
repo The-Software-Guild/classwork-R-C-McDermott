@@ -1,0 +1,44 @@
+package com.ryan.exercise3;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
+
+public class Main {
+
+	public static void main(String[] args) throws phonebookNameException {
+		Map<String, Integer> phoneBook = new HashMap<String, Integer>();
+		Scanner scanner = new Scanner(System.in);
+		
+		phoneBook.put("Ryan", 1235511);
+		phoneBook.put("Katie", 23493452);
+		phoneBook.put("Jim", 2342952);
+		phoneBook.put("Julie", 82657926);
+		
+		Set<String> names = phoneBook.keySet();
+		try {
+			System.out.println("Enter name: ");
+			String name = scanner.nextLine();
+			if (checkName(name, names)) {
+				throw new phonebookNameException("No name in phonebook!");
+			}
+			System.out.println(name + "'s phone number: " + phoneBook.get(name));
+		}
+		catch (phonebookNameException e) {
+			System.out.println(e.getMessage());
+		}
+		
+		
+	}
+	
+	public static boolean checkName(String name, Set<String> names) {
+		for (String n: names) {
+			if (name.equals(n)) {
+				return true;
+			}
+		}
+		return false;	
+	}
+
+}

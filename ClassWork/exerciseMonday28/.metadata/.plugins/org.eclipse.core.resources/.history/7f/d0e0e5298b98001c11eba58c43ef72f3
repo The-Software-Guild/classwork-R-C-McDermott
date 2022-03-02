@@ -1,0 +1,13 @@
+package com.ryan.cd;
+
+public class Main {
+
+	public static void main(String[] args) {
+		CD cd1 = new CD("AAA", "AAA");
+		CD cd2 = new CD("BBB", "BBB");
+		CD cd3 = new CD("CCC", "CCC");
+		
+
+	}
+
+}
