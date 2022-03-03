@@ -1,0 +1,27 @@
+package com.sujata.persistence;
+
+import java.util.List;
+
+import com.sujata.entity.Employee;
+
+public class EmployeeDaoImpl implements EmployeeDao {
+
+	@Override
+	public List<Employee> getEmployeeList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int insertRecord(Employee employee) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public Employee getRecordById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

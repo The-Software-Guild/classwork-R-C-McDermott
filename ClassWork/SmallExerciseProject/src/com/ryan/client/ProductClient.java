@@ -15,7 +15,7 @@ public class ProductClient {
 		// Commented out for spring implementation
 		//ProductPresentation productPresentation = new ProductPresentationImpl();
 		
-		ApplicationContext springContainer = new ClassPathXmlApplicationContext("com/ryan/client/product.xml");
+		ApplicationContext springContainer = new ClassPathXmlApplicationContext("com/ryan/client/prod.xml");
 		ProductPresentation productPresentation = (ProductPresentation)springContainer.getBean("prodPresentation");
 		
 		Scanner scanner = new Scanner(System.in);

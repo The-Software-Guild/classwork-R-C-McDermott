@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=SQLProject/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.sujata.persistence{EmployeeDao.java[EmployeeDao" modifiers="513" timestamp="1646076966874"/>
+    <typeInfo handle="=SQLProject/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.sujata.presentation{EmployeePresentation.java[EmployeePresentation" modifiers="513" timestamp="1646074202082"/>
+    <typeInfo handle="=SQLProject/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.sujata.service{EmployeeService.java[EmployeeService" modifiers="513" timestamp="1646077019047"/>
+    <typeInfo handle="=SmallExerciseProject/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ryan.persistence{ProductDao.java[ProductDao" modifiers="513" timestamp="1646172116863"/>
+    <typeInfo handle="=SmallExerciseProject/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ryan.service{ProductService.java[ProductService" modifiers="513" timestamp="1646172117767"/>
+    <typeInfo handle="=SmallExerciseProject/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ryan.presentation{ProductPresentation.java[ProductPresentation" modifiers="513" timestamp="1646145452734"/>
+    <typeInfo handle="=SmallExerciseProjectJavaConfigWithSpringJDBC/C:\/Users\/ryan-\/.m2\/repository\/org\/springframework\/spring-jdbc\/5.3.16\/spring-jdbc-5.3.16.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-jdbc=/=/maven.version=/5.3.16=/=/maven.scope=/compile=/&lt;org.springframework.jdbc.core(RowMapper.class[RowMapper" modifiers="1537" timestamp="1646241090632"/>
+</typeInfoHistroy>
